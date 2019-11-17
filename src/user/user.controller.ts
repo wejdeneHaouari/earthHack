@@ -12,8 +12,8 @@ import { UserVm } from './models/view-models/user-vm.model';
 @Controller('user')
 export class UserController {
   constructor(private readonly userService: UserService,
-              private readonly litterService: LitterService) {}
-  @Post()
+             /* private readonly litterService: LitterService*/) {}
+/*  @Post()
   @UseGuards(AuthGuard('jwt'))
   @ApiCreatedResponse({ type: LitterVm })
   @ApiBadRequestResponse({ type: ApiException })
@@ -26,5 +26,5 @@ export class UserController {
     } catch (e) {
       throw new HttpException(e, HttpStatus.INTERNAL_SERVER_ERROR);
     }
-  }
+  }*/
 }

@@ -14,8 +14,8 @@ export class CollectorService extends BaseService<Collector> {
   constructor(
     @InjectModel(Collector.modelName) private readonly collectorModel: ModelType<Collector>,
     private readonly mapperService: MapperService,
-    @Inject(forwardRef(() => LitterService))
-    private readonly litterService: LitterService,
+   // @Inject(forwardRef(() => LitterService))
+   // private readonly litterService: LitterService,
   ) {
     super();
     this._model = collectorModel;
@@ -38,7 +38,7 @@ export class CollectorService extends BaseService<Collector> {
     }
   }
 
-  async takeLitter(litterId: string, collectorId: string): Promise<LitterVm> {
+/*  async takeLitter(litterId: string, collectorId: string): Promise<LitterVm> {
     const exist = await this.litterService.findById(litterId);
 
     if (!exist) {
@@ -52,5 +52,5 @@ export class CollectorService extends BaseService<Collector> {
     } catch (e) {
       throw new HttpException(e, HttpStatus.INTERNAL_SERVER_ERROR);
     }
-  }
+  }*/
 }

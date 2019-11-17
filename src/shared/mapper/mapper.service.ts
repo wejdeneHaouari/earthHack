@@ -57,6 +57,13 @@ export class MapperService {
     config
       .createMap('Collector[]', 'CollectorVm[]')
       .forSourceMember('_id', opts => opts.ignore());
+    config
+      .createMap('Point', 'PointVm')
+      .forSourceMember('_id', opts => opts.ignore());
+
+    config
+      .createMap('Point[]', 'PointVm[]')
+      .forSourceMember('_id', opts => opts.ignore());
 
   }
 }

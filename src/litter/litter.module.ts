@@ -7,7 +7,6 @@ import { Litter} from './models/litter.model';
 @Module({
   imports: [MongooseModule.forFeature([{name: Litter.modelName, schema: Litter.model.schema}])],
   providers: [LitterService],
-  exports: [LitterService],
   controllers: [LitterController],
 })
 export class LitterModule {}

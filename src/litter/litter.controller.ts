@@ -15,7 +15,7 @@ import { EnumToArray } from '../shared/utilities/enum-to-array';
 @Controller('litters')
 @ApiUseTags(Litter.modelName)
 export class LitterController {
-  constructor(private readonly litterService: LitterService){}
+  /*constructor(private readonly litterService: LitterService){}
 
   @Post()
   @ApiCreatedResponse({ type: LitterVm })
@@ -85,5 +85,5 @@ export class LitterController {
       throw new HttpException(e, HttpStatus.INTERNAL_SERVER_ERROR);
 
     }
-  }
+  }*/
 }

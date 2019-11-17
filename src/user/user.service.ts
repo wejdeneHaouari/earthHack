@@ -13,7 +13,7 @@ import { LitterService } from '../litter/litter.service';
 export class UserService extends BaseService<User> {
   constructor(
     @InjectModel(User.modelName) private readonly userModel: ModelType<User>,
-    private readonly litterService: LitterService,
+   // private readonly litterService: LitterService,
     private readonly mapperService: MapperService,
     @Inject(forwardRef(() => AuthService))
     readonly authService: AuthService,
@@ -23,7 +23,7 @@ export class UserService extends BaseService<User> {
     this._mapper = mapperService.mapper;
   }
 
-  async takeOfLitter(params: LitterParams, idUser: string): Promise<Litter> {
+/*  async takeOfLitter(params: LitterParams, idUser: string): Promise<Litter> {
     const currentUser = await this.findById(idUser);
     if (! currentUser) {
       throw new HttpException( 'USER NOT FOUND', HttpStatus.NOT_FOUND);
@@ -40,7 +40,7 @@ export class UserService extends BaseService<User> {
     } catch (e) {
       throw new HttpException(e, HttpStatus.INTERNAL_SERVER_ERROR);
     }
-  }
+  }*/
 
 
 }

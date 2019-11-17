@@ -9,7 +9,7 @@ import { LitterParams } from './models/view-model/litter-params.model';
 
 @Injectable()
 export class LitterService extends BaseService<Litter> {
-  constructor(
+ /* constructor(
     @InjectModel(Litter.modelName) private readonly litterModel: ModelType<Litter>,
     private readonly mapperService: MapperService,
   ) {
@@ -35,5 +35,5 @@ export class LitterService extends BaseService<Litter> {
     } catch (e) {
       throw new HttpException(e, HttpStatus.INTERNAL_SERVER_ERROR);
     }
-  }
+  }*/
 }

@@ -1,6 +1,5 @@
+import { ApiModelProperty } from '@nestjs/swagger';
 
-import { ApiModelProperty, ApiModelPropertyOptional} from '@nestjs/swagger';
-import { LitterStatus } from '../litter-type.enum';
 export class TakeLitterParams {
   @ApiModelProperty()
   litterId?: string;

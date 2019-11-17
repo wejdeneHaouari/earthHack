@@ -17,6 +17,8 @@ import { CompanyModule } from './company/company.module';
 import { CollectorModule } from './collector/collector.module';
 import { LitterModule } from './litter/litter.module';
 import { LitterService } from './litter/litter.service';
+import { PointModule } from './point/point.module';
+import { TrashModule } from './trash/trash.module';
 
 @Module({
   imports: [ MongooseModule.forRoot(ConfigurationService.connectionString),
@@ -26,7 +28,9 @@ import { LitterService } from './litter/litter.service';
     ProductModule,
     CompanyModule,
     CollectorModule,
-    LitterModule],
+    LitterModule,
+    PointModule,
+    TrashModule],
   controllers: [AppController, AuthController, TestController],
   providers: [AppService, AuthService, JwtStrategy, TodoService, LitterService],
 })

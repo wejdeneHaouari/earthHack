@@ -2,37 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a0890bc-9777-4fc4-a1a2-c759a50fcb71" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/collector/models/collector.model.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collector/models/view-model/collector-params.model.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collector/models/view-model/collector-vm.model.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collector/models/view-model/take-trash-params.model.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/company/models/company.model.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/company/models/view-model/company-params.model.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/company/models/view-model/company-vm.model.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/litter/models/litter-type.enum.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/litter/models/litter.model.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/litter/models/view-model/litter-params.model.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/litter/models/view-model/litter-vm.model.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/product/models/product.model.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/product/models/view-model/product-params.model.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/product/models/view-model/product-vm.model.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/default.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/default.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/auth/auth.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/auth/auth.controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/auth/auth.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/auth/auth.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/auth/jwt-strategy/jwt-strategy.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/auth/jwt-strategy/jwt-strategy.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/mapper/mapper.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/mapper/mapper.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/todo/todo.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/todo/todo.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/user/models/user-role.enum.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/models/user-role.enum.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/user/models/user.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/models/user.model.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/user/models/view-models/login-response-vm.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/models/view-models/login-response-vm.model.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/user/models/view-models/register-vm.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/models/view-models/register-vm.model.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/user/models/view-models/user-vm.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/models/view-models/user-vm.model.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/user/user.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/user.controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/user/user.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/user.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collector/collector.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/collector/collector.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/litter/litter.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/litter/litter.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/litter/models/view-model/litter-vm.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/litter/models/view-model/litter-vm.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/litter/models/view-model/take-litter-params.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/litter/models/view-model/take-litter-params.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -45,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/litter/litter.service.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+            <state relative-caret-position="184">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <element signature="e#0#71#0" expanded="true" />
               </folding>
@@ -60,8 +33,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/litter/models/litter.model.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="322">
+              <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
               <folding>
                 <element signature="e#0#68#0" expanded="true" />
               </folding>
@@ -70,31 +43,46 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/todo/models/todo-level.enum.ts">
+        <entry file="file://$PROJECT_DIR$/src/litter/litter.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/litter/models/view-model/take-litter-params.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/collector/collector.controller.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="808">
+              <caret line="40" column="35" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="51" />
+              <folding>
+                <element signature="e#0#115#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/litter/models/view-model/litter-vm.model.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/todo/models/todo.model.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+              <caret selection-end-column="51" />
               <folding>
-                <element signature="e#0#68#0" expanded="true" />
+                <element signature="e#0#51#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/shared/base.module.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -103,16 +91,28 @@
         <entry file="file://$PROJECT_DIR$/src/litter/models/litter-type.enum.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="26" lean-forward="true" selection-start-column="26" selection-end-column="26" />
+              <caret column="26" selection-start-column="26" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/litter/litter.module.ts">
+        <entry file="file://$PROJECT_DIR$/src/todo/models/view-model/todo-params.model.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+            <state relative-caret-position="46">
+              <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#47#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/todo/todo.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" column="9" lean-forward="true" selection-end-line="12" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -142,10 +142,11 @@
       <find>Company</find>
       <find>company</find>
       <find>TrashStatus</find>
-      <find>todo</find>
-      <find>Todo</find>
       <find>trash</find>
       <find>Trash</find>
+      <find>Todo</find>
+      <find>todo</find>
+      <find>TrashStatus</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -193,22 +194,22 @@
         <option value="$PROJECT_DIR$/src/trash/models/trash.model.ts" />
         <option value="$PROJECT_DIR$/src/litter/models/litter-type.enum.ts" />
         <option value="$PROJECT_DIR$/src/litter/models/view-model/litter-params.model.ts" />
-        <option value="$PROJECT_DIR$/src/litter/models/view-model/litter-vm.model.ts" />
         <option value="$PROJECT_DIR$/src/litter/litter.controller.ts" />
         <option value="$PROJECT_DIR$/src/user/user.service.ts" />
         <option value="$PROJECT_DIR$/src/user/user.controller.ts" />
-        <option value="$PROJECT_DIR$/src/litter/models/view-model/take-litter-params" />
-        <option value="$PROJECT_DIR$/src/collector/collector.controller.ts" />
         <option value="$PROJECT_DIR$/src/collector/collector.module.ts" />
         <option value="$PROJECT_DIR$/src/collector/collector.service.ts" />
         <option value="$PROJECT_DIR$/src/app.module.ts" />
-        <option value="$PROJECT_DIR$/src/litter/litter.module.ts" />
         <option value="$PROJECT_DIR$/src/litter/litter.service.ts" />
         <option value="$PROJECT_DIR$/src/litter/models/litter.model.ts" />
+        <option value="$PROJECT_DIR$/src/litter/litter.module.ts" />
+        <option value="$PROJECT_DIR$/src/litter/models/view-model/litter-vm.model.ts" />
+        <option value="$PROJECT_DIR$/src/litter/models/view-model/take-litter-params" />
+        <option value="$PROJECT_DIR$/src/collector/collector.controller.ts" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -249,14 +250,9 @@
               <item name="nest-js-basic-congif" type="b2602c69:ProjectViewProjectNode" />
               <item name="nest-js-basic-congif" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="todo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nest-js-basic-congif" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nest-js-basic-congif" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="todo" type="462c0819:PsiDirectoryNode" />
+              <item name="litter" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="view-model" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -318,15 +314,15 @@
       <workItem from="1573931566223" duration="9550000" />
       <workItem from="1573943921096" duration="7312000" />
       <workItem from="1573951262375" duration="3330000" />
-      <workItem from="1573954696766" duration="6459000" />
+      <workItem from="1573954696766" duration="7170000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57693000" />
+    <option name="totallyTimeSpent" value="58404000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28199404" />
@@ -344,7 +340,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3291815" />
       <window_info anchor="bottom" id="TypeScript" order="9" weight="0.3291815" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.8380783" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.9466192" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -354,13 +350,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/user/models/user-role.enum.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/company/company.service.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
@@ -629,32 +618,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/litter/models/view-model/litter-vm.model.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/litter/litter.controller.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="43" column="57" lean-forward="true" selection-start-line="43" selection-start-column="57" selection-end-line="43" selection-end-column="57" />
           <folding>
             <element signature="e#0#115#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/todo/todo.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="9" lean-forward="true" selection-end-line="12" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -683,23 +652,6 @@
           <folding>
             <element signature="e#1#77#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/litter/models/view-model/take-litter-params.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-          <folding>
-            <element signature="e#1#77#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/collector/collector.controller.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -737,13 +689,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/litter/models/litter-type.enum.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="26" lean-forward="true" selection-start-column="26" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/shared/base.service.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -757,7 +702,7 @@
     <entry file="file://$PROJECT_DIR$/src/todo/models/todo-level.enum.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="23" />
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -778,32 +723,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/litter/litter.module.ts">
+    <entry file="file://$PROJECT_DIR$/src/litter/litter.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        <state relative-caret-position="184">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/todo/todo.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="9" lean-forward="true" selection-end-line="12" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/todo/models/view-model/todo-params.model.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/litter/models/litter.model.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="322">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
           <folding>
             <element signature="e#0#68#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/litter/litter.service.ts">
+    <entry file="file://$PROJECT_DIR$/src/litter/litter.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        <state relative-caret-position="76">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
           <folding>
-            <element signature="e#0#71#0" expanded="true" />
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/litter/models/litter-type.enum.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/litter/models/view-model/litter-vm.model.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="51" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/litter/models/view-model/take-litter-params.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/collector/collector.controller.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="808">
+          <caret line="40" column="35" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#115#0" expanded="true" />
           </folding>
         </state>
       </provider>

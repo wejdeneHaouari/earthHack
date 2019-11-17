@@ -16,6 +16,7 @@ import { TakeLitterParams } from '../litter/models/view-model/take-litter-params
 
 
 
+
 @Controller('collectors')
 @ApiUseTags(Collector.modelName)
 export class CollectorController {
@@ -33,7 +34,7 @@ export class CollectorController {
       throw new HttpException(e, HttpStatus.INTERNAL_SERVER_ERROR);
     }
   }
-  @Post()
+ /* @Post()
   @ApiCreatedResponse({ type: LitterVm })
   @ApiBadRequestResponse({ type: ApiException })
   @ApiOperation(GetOperationId(Collector.modelName, 'Take litter'))
@@ -43,7 +44,7 @@ export class CollectorController {
     } catch (e) {
       throw new HttpException(e, HttpStatus.INTERNAL_SERVER_ERROR);
     }
-  }
+  }*/
 
   @Get()
   @ApiOkResponse({ type: CollectorVm, isArray: true })
