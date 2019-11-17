@@ -8,13 +8,16 @@ import { User } from './models/user.model';
 import { TrashParams } from '../trash/models/view-model/trash-params.model';
 import { Trash } from '../trash/models/trash.model';
 import { TrashService } from '../trash/trash.service';
-
+import { PointService } from '../point/point.service';
+import { setPointToUser } from '../shared/utilities/set-point-to-user';
+import { PointParams } from '../point/models/view-model/point-params.model';
 @Injectable()
 export class UserService extends BaseService<User> {
   constructor(
     @InjectModel(User.modelName) private readonly userModel: ModelType<User>,
     private readonly trashService: TrashService,
     private readonly mapperService: MapperService,
+    private readonly pointService: PointService,
     @Inject(forwardRef(() => AuthService))
     readonly authService: AuthService,
   ) {
@@ -37,6 +40,9 @@ export class UserService extends BaseService<User> {
     if (currentUser.region) {
       newTrash.region = currentUser.region;
     }
+    // add point to user
+    const points = setPointToUser(quantity);
+    await this.pointService.createPoint(new PointParams(points, idUser));
     try {
       return await this.trashService.createTrash(newTrash);
     } catch (e) {

@@ -8,9 +8,6 @@ import { ApiException } from '../shared/api-exception.model';
 import { GetOperationId } from '../shared/utilities/get-operation-id';
 import { map } from 'lodash';
 import { PointParams } from './models/view-model/point-params.model';
-import { isArray } from 'util';
-import { ToBooleanPipe } from '../shared/pipes/to-boolean.pipe';
-import { EnumToArray } from '../shared/utilities/enum-to-array';
 
 @Controller('points')
 @ApiUseTags(Point.modelName)

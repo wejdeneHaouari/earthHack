@@ -22,7 +22,7 @@ export class PointService extends BaseService<Point> {
     const { value } = params;
     const newPoint = new this._model();
     newPoint.value = value;
-
+    newPoint.userId = params.userId;
     try {
       const result = await this.create(newPoint);
       return result.toJSON() as Point;

@@ -6,6 +6,7 @@ import { Point} from './models/point.model';
 
 @Module({
   imports: [MongooseModule.forFeature([{name: Point.modelName, schema: Point.model.schema}])],
+  exports: [PointService],
   providers: [PointService],
   controllers: [PointController],
 })
