@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a0890bc-9777-4fc4-a1a2-c759a50fcb71" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/trash/models/trash-status.enum.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/trash/models/trash.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/trash/models/trash.model.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/trash/models/view-model/trash-params.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/trash/models/view-model/trash-params.model.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/trash/models/view-model/trash-vm.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/trash/models/view-model/trash-vm.model.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/trash/trash.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/trash/trash.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collector/collector.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/collector/collector.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/user/user.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/user.controller.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,24 +17,24 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/trash/trash.service.ts">
+        <entry file="file://$PROJECT_DIR$/src/collector/collector.controller.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="32" column="41" lean-forward="true" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
+            <state relative-caret-position="248">
+              <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
               <folding>
-                <element signature="e#0#71#0" expanded="true" />
+                <element signature="e#0#115#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/trash/trash.controller.ts">
+        <entry file="file://$PROJECT_DIR$/src/user/user.controller.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="72" column="5" lean-forward="true" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
+            <state relative-caret-position="165">
+              <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
               <folding>
-                <element signature="e#0#115#0" expanded="true" />
+                <element signature="e#0#108#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -73,6 +70,8 @@
       <find>TrashLevel</find>
       <find>todo</find>
       <find>Todo</find>
+      <find>Litter</find>
+      <find>litter</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -81,9 +80,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/product/product.module.ts" />
-        <option value="$PROJECT_DIR$/src/product/product.service.ts" />
-        <option value="$PROJECT_DIR$/src/product/models/view-model/product-vm.model.ts" />
         <option value="$PROJECT_DIR$/src/todo/models/view-model/todo-params.model.ts" />
         <option value="$PROJECT_DIR$/src/product/product.controller.ts" />
         <option value="$PROJECT_DIR$/src/shared/auth/auth.controller.ts" />
@@ -105,16 +101,11 @@
         <option value="$PROJECT_DIR$/src/shared/base.module.ts" />
         <option value="$PROJECT_DIR$/src/litter/models/litter-type.enum.ts" />
         <option value="$PROJECT_DIR$/src/litter/models/view-model/litter-params.model.ts" />
-        <option value="$PROJECT_DIR$/src/collector/collector.module.ts" />
         <option value="$PROJECT_DIR$/src/app.module.ts" />
         <option value="$PROJECT_DIR$/src/litter/models/litter.model.ts" />
         <option value="$PROJECT_DIR$/src/litter/litter.module.ts" />
         <option value="$PROJECT_DIR$/src/litter/models/view-model/litter-vm.model.ts" />
         <option value="$PROJECT_DIR$/src/litter/models/view-model/take-litter-params" />
-        <option value="$PROJECT_DIR$/src/collector/collector.service.ts" />
-        <option value="$PROJECT_DIR$/src/collector/collector.controller.ts" />
-        <option value="$PROJECT_DIR$/src/user/user.controller.ts" />
-        <option value="$PROJECT_DIR$/src/user/user.service.ts" />
         <option value="$PROJECT_DIR$/src/point/point.service.ts" />
         <option value="$PROJECT_DIR$/src/point/models/point.model.ts" />
         <option value="$PROJECT_DIR$/src/point/models/view-model/point-vm.model.ts" />
@@ -124,14 +115,22 @@
         <option value="$PROJECT_DIR$/src/shared/mapper/mapper.service.ts" />
         <option value="$PROJECT_DIR$/src/litter/litter.service.ts" />
         <option value="$PROJECT_DIR$/src/litter/litter.controller.ts" />
-        <option value="$PROJECT_DIR$/src/trash/trash.module.ts" />
         <option value="$PROJECT_DIR$/src/trash/models/trash-type.enum.ts" />
         <option value="$PROJECT_DIR$/src/trash/trash.service.ts" />
         <option value="$PROJECT_DIR$/src/trash/models/trash-status.enum.ts" />
         <option value="$PROJECT_DIR$/src/trash/models/trash.model.ts" />
         <option value="$PROJECT_DIR$/src/trash/models/view-model/trash-vm.model.ts" />
-        <option value="$PROJECT_DIR$/src/trash/models/view-model/trash-params.model.ts" />
         <option value="$PROJECT_DIR$/src/trash/trash.controller.ts" />
+        <option value="$PROJECT_DIR$/src/trash/trash.module.ts" />
+        <option value="$PROJECT_DIR$/src/user/user.service.ts" />
+        <option value="$PROJECT_DIR$/src/user/user.module.ts" />
+        <option value="$PROJECT_DIR$/src/collector/collector.service.ts" />
+        <option value="$PROJECT_DIR$/src/trash/models/view-model/trash-params.model.ts" />
+        <option value="$PROJECT_DIR$/src/trash/models/view-model/take-trash-params.ts" />
+        <option value="$PROJECT_DIR$/src/company/company.module.ts" />
+        <option value="$PROJECT_DIR$/src/collector/collector.module.ts" />
+        <option value="$PROJECT_DIR$/src/collector/collector.controller.ts" />
+        <option value="$PROJECT_DIR$/src/user/user.controller.ts" />
       </list>
     </option>
   </component>
@@ -168,28 +167,14 @@
               <item name="nest-js-basic-congif" type="b2602c69:ProjectViewProjectNode" />
               <item name="nest-js-basic-congif" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="todo" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="nest-js-basic-congif" type="b2602c69:ProjectViewProjectNode" />
               <item name="nest-js-basic-congif" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="trash" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nest-js-basic-congif" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nest-js-basic-congif" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="trash" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nest-js-basic-congif" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nest-js-basic-congif" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="trash" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="view-model" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -219,6 +204,7 @@
       <recent name="E:\hacks\hackForEarth\nest-js-basic-congif\src\collector\models\view-model" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\hacks\hackForEarth\nest-js-basic-congif\src\trash\models\view-model" />
       <recent name="E:\tutoriels\nestJS\nest-js-mean\nest-js-server\src\todo\models\view-model" />
       <recent name="E:\tutoriels\nestJS\nest-js-mean\nest-js-server\src\shared\auth" />
       <recent name="E:\tutoriels\nestJS\nest-js-mean\nest-js-server\src\shared" />
@@ -251,18 +237,17 @@
       <workItem from="1573931566223" duration="9550000" />
       <workItem from="1573943921096" duration="7312000" />
       <workItem from="1573951262375" duration="3330000" />
-      <workItem from="1573954696766" duration="10275000" />
+      <workItem from="1573954696766" duration="11883000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61509000" />
+    <option name="totallyTimeSpent" value="63117000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28199404" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28199404" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -277,7 +262,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3291815" />
       <window_info anchor="bottom" id="TypeScript" order="9" weight="0.3291815" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.9466192" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.9466192" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -287,23 +272,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/shared/auth/auth.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="45" column="28" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#91#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/user/models/view-models/login-vm.model.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="10" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/user/models/view-models/register-vm.model.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -344,16 +312,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="11" column="29" lean-forward="true" selection-end-line="12" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/company/company.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
@@ -402,13 +360,6 @@
           <folding>
             <element signature="e#1#77#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/collector/collector.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="50" lean-forward="true" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -514,43 +465,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/collector/collector.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/collector/collector.controller.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#115#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/user/user.controller.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="14" column="63" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
-          <folding>
-            <element signature="e#0#108#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/user/user.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#91#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -671,16 +585,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/trash/trash.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/trash/models/trash-type.enum.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -715,12 +619,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/trash/models/view-model/trash-params.model.ts">
+    <entry file="file://$PROJECT_DIR$/src/trash/trash.controller.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        <state relative-caret-position="-419">
+          <caret line="79" column="22" lean-forward="true" selection-start-line="79" selection-start-column="22" selection-end-line="79" selection-end-column="22" />
           <folding>
-            <element signature="e#1#77#0" expanded="true" />
+            <element signature="e#0#115#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -735,12 +639,102 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/trash/trash.controller.ts">
+    <entry file="file://$PROJECT_DIR$/src/user/user.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="72" column="5" lean-forward="true" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
+        <state relative-caret-position="87">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#91#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/trash/trash.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="92" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/trash/models/view-model/take-trash-params.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+          <folding>
+            <element signature="e#1#77#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/user/user.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="84" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/trash/models/view-model/trash-params.model.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="10" />
+          <folding>
+            <element signature="e#1#77#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/company/company.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="84" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="84" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/collector/collector.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="48" lean-forward="true" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#91#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/collector/collector.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/collector/collector.controller.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
           <folding>
             <element signature="e#0#115#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/user/user.controller.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#108#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -34,7 +34,7 @@ export class CollectorController {
       throw new HttpException(e, HttpStatus.INTERNAL_SERVER_ERROR);
     }
   }
-  @Post()
+  @Post('take-trash')
   @ApiCreatedResponse({ type: TrashVm })
   @ApiBadRequestResponse({ type: ApiException })
   @ApiOperation(GetOperationId(Collector.modelName, 'Take trash'))

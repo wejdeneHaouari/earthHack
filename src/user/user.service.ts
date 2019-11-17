@@ -32,6 +32,8 @@ export class UserService extends BaseService<User> {
     const newTrash =  new TrashParams();
     newTrash.quantity = quantity;
     newTrash.status = status;
+    newTrash.idUser = idUser;
+    newTrash.type = params.type;
     if (currentUser.region) {
       newTrash.region = currentUser.region;
     }

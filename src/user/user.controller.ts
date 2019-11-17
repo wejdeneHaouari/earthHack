@@ -13,15 +13,13 @@ import { TrashService } from '../trash/trash.service';
 export class UserController {
   constructor(private readonly userService: UserService,
               private readonly trashService: TrashService) {}
- @Post()
-  @UseGuards(AuthGuard('jwt'))
+ @Post('take-of-trash')
   @ApiCreatedResponse({ type: TrashVm })
   @ApiBadRequestResponse({ type: ApiException })
   @ApiOperation(GetOperationId(Trash.modelName, 'takeOfTrash'))
-  async takeOfTrash(@Body() params: TrashParams, @Request() req): Promise<TrashVm> {
+  async takeOfTrash(@Body() params: TrashParams): Promise<TrashVm> {
     try {
-      const currentUser: UserVm = req.user;
-      const newTrash = await this.userService.takeOfTrash(params, currentUser.id);
+      const newTrash = await this.userService.takeOfTrash(params, params.idUser);
       return this.trashService.map<TrashVm>(newTrash);
     } catch (e) {
       throw new HttpException(e, HttpStatus.INTERNAL_SERVER_ERROR);
