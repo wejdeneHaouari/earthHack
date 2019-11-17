@@ -2,12 +2,15 @@ import { BaseModel, schemaOptions } from '../../shared/base.module';
 
 import { ModelType , prop } from 'typegoose';
 import { TrashType } from './trash-type.enum';
+import { TrashStatus } from './trash-status.enum';
 
 export class Trash extends BaseModel<Trash> {
  @prop({ required: [true, 'Content is required']})
   quantity: number;
  @prop({enum: TrashType})
   type: TrashType;
+ @prop({enum: TrashStatus})
+ status: TrashStatus;
  @prop({default: false})
   idUser: string;
  @prop({default: false})

@@ -12,6 +12,7 @@ import { TrashType } from './models/trash-type.enum';
 import { isArray } from 'util';
 import { ToBooleanPipe } from '../shared/pipes/to-boolean.pipe';
 import { EnumToArray } from '../shared/utilities/enum-to-array';
+import { TrashStatus } from './models/trash-status.enum';
 
 @Controller('trashs')
 @ApiUseTags(Trash.modelName)
@@ -36,14 +37,17 @@ export class TrashController {
   @ApiBadRequestResponse({ type: ApiException })
   @ApiOperation(GetOperationId(Trash.modelName, 'GetAll'))
   @ApiImplicitQuery({ name: 'type', enum: EnumToArray(TrashType), required: false, isArray: true })
+  @ApiImplicitQuery({ name: 'status', enum: EnumToArray(TrashStatus), required: false, isArray: true })
   async get(
     @Query('type') type?: TrashType,
+    @Query('status') status?: TrashStatus,
   ): Promise<TrashVm[]> {
     let filter = {};
 
     if (type) {
       filter['type'] = { $in: isArray(type) ? [...type] : [type] };
     }
+
 
 
     try {
@@ -59,11 +63,29 @@ export class TrashController {
   @ApiResponse({ status: HttpStatus.BAD_REQUEST, type: ApiException})
   @ApiOperation(GetOperationId(Trash.modelName, 'Update'))
   async update(@Body() vm: TrashVm): Promise<TrashVm> {
-    const { id, quantity, type, idUser, idCollector, region}  = vm;
+    const { id, quantity, type, idUser, idCollector, region, status}  = vm;
     if (!vm || !id) {
       throw new HttpException(`Missing parameters`, HttpStatus.BAD_REQUEST);
     }
     const exist = await this.trashService.findById(id);
+    if (quantity) {
+      exist.quantity = quantity;
+    }
+    if (type) {
+      exist.type = type;
+    }
+    if (idUser) {
+      exist.idUser = idUser;
+    }
+    if (idCollector) {
+      exist.idCollector = idCollector;
+    }
+    if (region) {
+      exist.idCollector = region;
+    }
+    if (status) {
+      exist.status = status;
+    }
 
     if (!exist) {
       throw new HttpException(`${id} Not Found`, HttpStatus.NOT_FOUND);
