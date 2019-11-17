@@ -11,8 +11,8 @@ import { CollectorParams } from './models/view-model/collector-params.model';
 import { isArray } from 'util';
 import { ToBooleanPipe } from '../shared/pipes/to-boolean.pipe';
 import { EnumToArray } from '../shared/utilities/enum-to-array';
-import { LitterVm } from '../litter/models/view-model/litter-vm.model';
-import { TakeLitterParams } from '../litter/models/view-model/take-litter-params';
+import { TrashVm } from '../trash/models/view-model/trash-vm.model';
+import { TakeTrashParams } from '../trash/models/view-model/take-trash-params';
 
 
 
@@ -34,17 +34,17 @@ export class CollectorController {
       throw new HttpException(e, HttpStatus.INTERNAL_SERVER_ERROR);
     }
   }
- /* @Post()
-  @ApiCreatedResponse({ type: LitterVm })
+  @Post()
+  @ApiCreatedResponse({ type: TrashVm })
   @ApiBadRequestResponse({ type: ApiException })
-  @ApiOperation(GetOperationId(Collector.modelName, 'Take litter'))
-  async takeLitter(@Body() params: TakeLitterParams): Promise<LitterVm> {
+  @ApiOperation(GetOperationId(Collector.modelName, 'Take trash'))
+  async takeTrash(@Body() params: TakeTrashParams): Promise<TrashVm> {
     try {
-      return this.collectorService.takeLitter(params.litterId, params.collectorId);
+      return this.collectorService.takeTrash(params.trashId, params.collectorId);
     } catch (e) {
       throw new HttpException(e, HttpStatus.INTERNAL_SERVER_ERROR);
     }
-  }*/
+  }
 
   @Get()
   @ApiOkResponse({ type: CollectorVm, isArray: true })

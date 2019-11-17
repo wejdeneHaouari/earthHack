@@ -5,15 +5,15 @@ import { AuthService } from '../shared/auth/auth.service';
 import { BaseService } from '../shared/base.service';
 import { MapperService } from '../shared/mapper/mapper.service';
 import { User } from './models/user.model';
-import { LitterParams } from '../litter/models/view-model/litter-params.model';
-import { Litter } from '../litter/models/litter.model';
-import { LitterService } from '../litter/litter.service';
+import { TrashParams } from '../trash/models/view-model/trash-params.model';
+import { Trash } from '../trash/models/trash.model';
+import { TrashService } from '../trash/trash.service';
 
 @Injectable()
 export class UserService extends BaseService<User> {
   constructor(
     @InjectModel(User.modelName) private readonly userModel: ModelType<User>,
-   // private readonly litterService: LitterService,
+    private readonly trashService: TrashService,
     private readonly mapperService: MapperService,
     @Inject(forwardRef(() => AuthService))
     readonly authService: AuthService,
@@ -23,24 +23,24 @@ export class UserService extends BaseService<User> {
     this._mapper = mapperService.mapper;
   }
 
-/*  async takeOfLitter(params: LitterParams, idUser: string): Promise<Litter> {
+  async takeOfTrash(params: TrashParams, idUser: string): Promise<Trash> {
     const currentUser = await this.findById(idUser);
     if (! currentUser) {
       throw new HttpException( 'USER NOT FOUND', HttpStatus.NOT_FOUND);
     }
     const { quantity, status } = params;
-    const newLitter =  new LitterParams();
-    newLitter.quantity = quantity;
-    newLitter.status = status;
+    const newTrash =  new TrashParams();
+    newTrash.quantity = quantity;
+    newTrash.status = status;
     if (currentUser.region) {
-      newLitter.region = currentUser.region;
+      newTrash.region = currentUser.region;
     }
     try {
-      return await this.litterService.createLitter(newLitter);
+      return await this.trashService.createTrash(newTrash);
     } catch (e) {
       throw new HttpException(e, HttpStatus.INTERNAL_SERVER_ERROR);
     }
-  }*/
+  }
 
 
 }

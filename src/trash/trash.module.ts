@@ -8,5 +8,6 @@ import { Trash} from './models/trash.model';
   imports: [MongooseModule.forFeature([{name: Trash.modelName, schema: Trash.model.schema}])],
   providers: [TrashService],
   controllers: [TrashController],
+  exports: [TrashService],
 })
 export class TrashModule {}
